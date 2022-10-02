@@ -1,0 +1,31 @@
+savehistory("F:/Babar-IntroToR/L1-history.Rhistory")
+x <- c(1,2,3,4,5,6,7,8,9)
+y <- c("babar", "sehzad", "sarah", "imran")
+savehistory("F:/Babar-IntroToR/L1-history.Rhistory")
+rm (x)
+x <- (2,4,6,8,10,12,14,16,18,20)
+x <- c(2,4,6,8,10,12,14,16,18,20)
+z <- c(1.2,2.5,3.9,5.6,4.5,6.9,7.8)
+save.image("F:/Babar-IntroToR/L1-history.Rhistory.RData")
+save.image("F:/Babar-IntroToR/L1-.Rhistory.RData")
+load("F:/Babar-IntroToR/L1-.Rhistory.RData")
+save.image("F:/Babar-IntroToR/lec1.RData")
+attach(hiesdata)
+View(hiesdata)
+attach("hiesdata")
+library(readxl)
+dataset <- read_excel(NULL)
+library(readxl)
+hiesdata <- read_excel("F:/Babar-IntroToR/hiesdata.xlsx")
+View(hiesdata)
+attache(hiesdata)
+attach(hiesdata)
+AMI <- MINCOM/POP
+print(AMI)
+AME >- MEXP/POP
+AME <- MEXP/POP
+print(AME)
+summary(PCMI)
+ExpMeat <- Qmutton*Pmutton
+print(ExpMeat)
+2+5
